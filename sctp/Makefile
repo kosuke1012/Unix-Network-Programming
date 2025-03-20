@@ -3,7 +3,7 @@ include ../Make.defines
 PROGS =	sctpserv01 sctpclient01 sctpserv02 sctpserv03 sctpclient02 sctpserv04 \
 sctpserv05 sctpclient03 sctpserv06 sctpserv07 sctpclient04 sctpserv_fork
 
-LIBS+= -L/usr/local/v6/lib -lm -lsctp
+LIBS+= -L/usr/local/v6/lib -lm
 
 .c.lc:
 	../../troff/fixcode.sh $< > $@

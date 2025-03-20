@@ -160,7 +160,7 @@ configure:2307: $? = 0
 configure:2319: result: yes
 configure:2403: checking for t_open in -lnsl
 configure:2434: gcc -o conftest -g -O2 -D_REENTRANT   conftest.c -lnsl  -lpthread  >&5
-/usr/sbin/ld: /tmp/ccDmRkUD.o: in function `main':
+/usr/sbin/ld: /tmp/cctWtm65.o: in function `main':
 /home/kosuke1012/ghq/github.com/kosuke1012/Unix-Network-Programming/configure:2431:(.text.startup+0x7): undefined reference to `t_open'
 collect2: error: ld returned 1 exit status
 configure:2437: $? = 1
@@ -206,7 +206,7 @@ configure:2591: checking for /home/kosuke1012/libresolv.a
 configure:2598: result: no
 configure:2601: checking for res_init in -lresolv
 configure:2632: gcc -o conftest -g -O2 -D_REENTRANT   conftest.c -lresolv  -lpthread  >&5
-/usr/sbin/ld: /tmp/ccyZzybz.o: in function `main':
+/usr/sbin/ld: /tmp/cc0DYceZ.o: in function `main':
 /home/kosuke1012/ghq/github.com/kosuke1012/Unix-Network-Programming/configure:2629:(.text.startup+0x7): undefined reference to `res_init'
 collect2: error: ld returned 1 exit status
 configure:2635: $? = 1
@@ -2028,9 +2028,9 @@ configure:6890: $? = 0
 configure:6901: result: yes
 configure:6916: checking for kqueue
 configure:6966: gcc -o conftest -g -O2 -D_REENTRANT   conftest.c -lpthread  >&5
-/usr/sbin/ld: /tmp/ccuBwpPf.o: in function `main':
+/usr/sbin/ld: /tmp/ccUstdCM.o: in function `main':
 /home/kosuke1012/ghq/github.com/kosuke1012/Unix-Network-Programming/configure:7018:(.text.startup+0x3): undefined reference to `kqueue'
-/usr/sbin/ld: /tmp/ccuBwpPf.o:/home/kosuke1012/ghq/github.com/kosuke1012/Unix-Network-Programming/configure:7009:(.data.rel+0x0): undefined reference to `kqueue'
+/usr/sbin/ld: /tmp/ccUstdCM.o:/home/kosuke1012/ghq/github.com/kosuke1012/Unix-Network-Programming/configure:7009:(.data.rel+0x0): undefined reference to `kqueue'
 collect2: error: ld returned 1 exit status
 configure:6969: $? = 1
 configure: failed program was:
@@ -2139,9 +2139,9 @@ configure: failed program was:
 configure:6986: result: no
 configure:6916: checking for kevent
 configure:6966: gcc -o conftest -g -O2 -D_REENTRANT   conftest.c -lpthread  >&5
-/usr/sbin/ld: /tmp/cc7FOlql.o: in function `main':
+/usr/sbin/ld: /tmp/ccAtoq5T.o: in function `main':
 /home/kosuke1012/ghq/github.com/kosuke1012/Unix-Network-Programming/configure:7018:(.text.startup+0x3): undefined reference to `kevent'
-/usr/sbin/ld: /tmp/cc7FOlql.o:/home/kosuke1012/ghq/github.com/kosuke1012/Unix-Network-Programming/configure:7009:(.data.rel+0x0): undefined reference to `kevent'
+/usr/sbin/ld: /tmp/ccAtoq5T.o:/home/kosuke1012/ghq/github.com/kosuke1012/Unix-Network-Programming/configure:7009:(.data.rel+0x0): undefined reference to `kevent'
 collect2: error: ld returned 1 exit status
 configure:6969: $? = 1
 configure: failed program was:
